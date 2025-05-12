@@ -29,7 +29,8 @@ Tryb symulacji
 ```
 cargo run -- --simulation --steps 100 --grid 30 50
 ```
-![obraz](https://github.com/user-attachments/assets/57d83ebb-ecf1-482a-bceb-a9bc68b98f35)
+
+![survivors_vs_density](https://github.com/user-attachments/assets/6dda0288-6828-417d-aefd-fb6416ef1060)
 
 
 ## Parametry:
