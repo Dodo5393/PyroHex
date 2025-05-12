@@ -1,0 +1,12 @@
+[package]
+name = "PyroHex"
+version = "0.1.0"
+edition = "2024"
+authors = ["Jan Kowalski <jan@example.com>"]
+description = "Symulacja pożaru lasu na siatce heksagonalnej"
+
+[dependencies]
+macroquad = "*"
+plotters = "*"
+clap = { version = "*", features = ["cargo"] }
+rand = "*"
