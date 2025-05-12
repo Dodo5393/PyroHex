@@ -21,10 +21,16 @@ Tryb gry
 ```
 cargo run -- --game --grid 30 50
 ```
+
+![obraz](https://github.com/user-attachments/assets/d2138c05-a64f-4c6f-a5ab-dadef5a2ddee)
+
+
 Tryb symulacji
 ```
 cargo run -- --simulation --steps 100 --grid 30 50
 ```
+![obraz](https://github.com/user-attachments/assets/6ef67406-c4f8-4e71-86c6-199ece779096)
+
 ## Parametry:
 
     --grid WIDTH HEIGHT – rozmiar siatki heksagonalnej (domyślnie 25 50)
@@ -42,4 +48,6 @@ cargo run -- --simulation --steps 100 --grid 30 50
     symulation.rs – algorytm rozprzestrzeniania ognia w czasie
 
     plot.rs – generowanie wykresów z wynikami symulacji
+
+
 
