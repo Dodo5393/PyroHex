@@ -34,6 +34,7 @@ async fn main() {
                 .long("steps")
                 .value_name("STEPS")
                 .value_parser(value_parser!(usize))
+                .default_value("10")
                 .help("Liczba kroków symulacji")
                 .requires("simulation"),
         )
